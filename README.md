@@ -6,7 +6,7 @@ This is 3.18.x MT6580 kernel source ported to be used on Lenovo A1010a20
 | LCM driver #1| `ili9806e_txd_hd720_dsi_vdo_fwvga` | Yes | Yes |
 | LCM driver #2| `zaw700_ili9806e_fwvga_dsi_vdo_DJN_1504` | Yes | Yes |
 | Touch panel #1| `msg2xxx (i2c 1-0026)` | Yes | Yes |
-| Touch panel #2 `ft5x0x (i2c 1-0038)` | Yes | Yes |
+| Touch panel #2| `ft5x0x (i2c 1-0038)` | Yes | Yes |
 | GPU | `Mali-400 MP` | Yes | Yes |
 | Camera #1 | `s5k5e2ya_mipi_raw` | Yes | Yes |
 | Camera #2 | `gc2365_mipi_raw` | Yes | No |
