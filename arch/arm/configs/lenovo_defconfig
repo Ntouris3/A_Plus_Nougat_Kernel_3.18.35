@@ -458,7 +458,7 @@ CONFIG_CRYPTO_LZO=y
 CONFIG_LIBCRC32C=y
 
 ################################
-# CONFIG DOOGEE X5 6580
+# CONFIG LENOVO A PLUS 6580
 ################################
 
 CONFIG_LCM_HEIGHT="1280"
