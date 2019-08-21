@@ -21,7 +21,7 @@
 #include <cust_gpio_usage.h>
 #include <linux/hrtimer.h>
 #include <linux/ktime.h>
-#include <linux/xlog.h>
+//#include <linux/xlog.h>
 #include <linux/version.h>
 #include <cust_leds.h>
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,37))
