@@ -20,7 +20,7 @@
 #include "kd_camera_typedef.h"
 #include <linux/hrtimer.h>
 #include <linux/ktime.h>
-#include <linux/xlog.h>
+//#include <linux/xlog.h>
 #include <linux/version.h>
 
 #ifdef CONFIG_COMPAT
