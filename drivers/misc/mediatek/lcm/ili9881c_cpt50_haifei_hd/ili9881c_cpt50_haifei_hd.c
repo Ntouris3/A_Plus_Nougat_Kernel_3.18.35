@@ -10,6 +10,17 @@
 #endif
 #include "lcm_drv.h"
 
+
+#include <linux/printk.h>
+#ifdef BUILD_LK
+#include <platform/mt_gpio.h>
+#include <string.h>
+#elif defined(BUILD_UBOOT)
+#include <asm/arch/mt_gpio.h>
+#else
+//#include <mach/mt_gpio.h>
+//#include <linux/xlog.h>
+#endif
 // ---------------------------------------------------------------------------
 //  Local Constants
 // ---------------------------------------------------------------------------
