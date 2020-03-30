@@ -34,8 +34,8 @@ LCM_DSI_MODE_CON lcm_dsi_mode;
 #endif
 
 LCM_DRIVER *lcm_driver_list[] = {
-#if defined(ILI9806E_TXD_HD720_DSI_VDO_FWVGA)            
-	&ili9806e_txd_hd720_dsi_vdo_fwvga_lcm_drv,
+#if defined(ILI9881C_CPT50_HAIFEI_HD)            
+	&ili9881c_cpt50_haifei_hd_lcm_drv,
 #endif
 #if defined(ZAW700_ILI9806E_FWVGA_DSI_VDO_DJN_1504)           
 	&zaw700_ili9806e_fwvga_dsi_vdo_DJN_1504_lcm_drv,
