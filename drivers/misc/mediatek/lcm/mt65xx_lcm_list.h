@@ -16,6 +16,7 @@
 
 #include <lcm_drv.h>
 
+extern LCM_DRIVER ili9881c_cpt50_haifei_hd_lcm_drv;
 extern LCM_DRIVER ili9806e_txd_hd720_dsi_vdo_fwvga_lcm_drv;
 extern LCM_DRIVER zaw700_ili9806e_fwvga_dsi_vdo_DJN_1504_lcm_drv;
 extern LCM_DRIVER hct_rm68200_dsi_vdo_hd_cpt;
